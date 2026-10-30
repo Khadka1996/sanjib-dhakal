@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Khand, Poppins, Noto_Sans_Devanagari } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { LangProvider } from "@/lib/lang";
 import { SITE_URL, SITE_NAME, OG_IMAGE } from "@/lib/site";
 import "./globals.css";
@@ -43,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fustat:wght@500;600;700&display=swap" />
         <link rel="preload" as="image" href="/images/sanjeev.jpg" />
       </head>
-      <body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld).replace(/</g, "\\u003c") }} /><LangProvider>{children}</LangProvider></body>
+      <body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld).replace(/</g, "\\u003c") }} /><LangProvider>{children}</LangProvider><Analytics /></body>
     </html>
   );
 }
