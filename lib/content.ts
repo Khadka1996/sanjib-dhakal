@@ -24,7 +24,7 @@ export const timeline: { year?: L; t: L; d?: L }[] = [
   { year: { ne: "२०७०", en: "2070 BS" }, t: { ne: "नेपाल तरुण दल इलाम जिल्ला सदस्य", en: "District member, Nepal Tarun Dal, Ilam" } },
   { t: { ne: "नेपाली कांग्रेसको १३औं अधिवेशनदेखि क्रियाशील सदस्य", en: "Active member of Nepali Congress since its 13th convention" } },
   { year: { ne: "२०७२", en: "2072 BS" }, t: { ne: "समाजशास्त्रमा स्नातकोत्तर; भूकम्पपीडितका लागि नेविसंघबाट अग्र मोर्चामा खटिए", en: "Master's in sociology; sent to the front line for earthquake survivors by the NSU" } },
-  { year: { ne: "२०७३", en: "2073 BS" }, t: { ne: "नेविसंघ इलाम–काठमाडौँ सम्पर्क समिति अध्यक्षमा चयन", en: "Chosen president, NSU Ilam–Kathmandu liaison committee" } },
+  { year: { ne: "२०७३", en: "2073 BS" }, t: { ne: "नेविसंघ इलाम–काठमाडौँ सम्पर्क समिति अध्यक्षमा चयन", en: "Chosen president, NSU Ilam–Kathmandu liaison samiti" } },
   { year: { ne: "२०७४", en: "2074 BS" }, t: { ne: "नेविसंघ आर आर इकाई अध्यक्षमा निर्वाचित", en: "Elected president, NSU RR Campus unit" } },
   { t: { ne: "१४औं महाधिवेशन: इलाम क्षेत्र १ बाट सर्वाधिक मतसहित केन्द्रीय प्रतिनिधि", en: "14th convention: elected central delegate from Ilam 1 with the highest votes" } },
   { year: { ne: "२०७९", en: "2079 BS" }, t: { ne: "नेपाल विद्यार्थी संघको केन्द्रीय सदस्यमा चयन", en: "Chosen central member of the Nepal Student Union" } },
@@ -32,8 +32,8 @@ export const timeline: { year?: L; t: L; d?: L }[] = [
 ];
 // Draft pledges written for the site: have Sanjib Dhakal review and approve the wording before launch.
 export const manifesto: { t: L; d: L; p: L[] }[] = [
-  { t: { ne: "वडासम्म बलियो संगठन", en: "A strong organization down to every ward" }, d: { ne: "कोशी प्रदेशका १४ जिल्ला र १३७ पालिकामा सक्रिय, नियमित भेला बस्ने कमिटी।", en: "Active committees that meet regularly in all 14 districts and 137 local units of Koshi." }, p: [
-    { ne: "हरेक वडा कमिटीको नियमित बैठक र प्रदेशसम्म रिपोर्टिङ", en: "Regular ward committee meetings that report up to the province" },
+  { t: { ne: "वडासम्म बलियो संगठन", en: "A strong organization down to every ward" }, d: { ne: "कोशी प्रदेशका १४ जिल्ला र १३७ पालिकामा सक्रिय, नियमित भेला बस्ने समिति।", en: "Active samiti that meet regularly in all 14 districts and 137 local units of Koshi." }, p: [
+    { ne: "हरेक वडा समितिको नियमित बैठक र प्रदेशसम्म रिपोर्टिङ", en: "Regular ward samiti meetings that report up to the province" },
     { ne: "डिजिटल र पारदर्शी सदस्यता नवीकरण", en: "Digital, transparent membership renewal" },
     { ne: "जिल्ला–जिल्ला नियमित अनुगमन र संवाद भ्रमण", en: "Regular monitoring and listening visits to every district" } ] },
   { t: { ne: "कार्यकर्ताको सम्मान र अवसर", en: "Respect and opportunity for party workers" }, d: { ne: "पद र जिम्मेवारी योगदान र क्षमताका आधारमा, निष्पक्ष प्रक्रियाबाट।", en: "Positions and responsibilities based on contribution and ability, through a fair process." }, p: [
@@ -41,7 +41,7 @@ export const manifesto: { t: L; d: L; p: L[] }[] = [
     { ne: "पुराना र समर्पित कार्यकर्ताको सम्मान कार्यक्रम", en: "Recognition for long-serving, dedicated workers" },
     { ne: "कार्यकर्ताका गुनासो सुन्ने प्रदेशस्तरीय डेस्क", en: "A province-level desk to hear workers' grievances" } ] },
   { t: { ne: "युवा र विद्यार्थीलाई नेतृत्व", en: "Leadership for youth and students" }, d: { ne: "नेविसंघ र तरुण दलबाट आएका युवालाई निर्णय तहमा अर्थपूर्ण स्थान।", en: "A real place in decision-making for young people coming up through the NSU and Tarun Dal." }, p: [
-    { ne: "प्रदेश कमिटीमा युवाको अर्थपूर्ण सहभागिता", en: "Meaningful youth representation on the provincial committee" },
+    { ne: "प्रदेश समितिमा युवाको अर्थपूर्ण सहभागिता", en: "Meaningful youth representation on the provincial samiti" },
     { ne: "नेतृत्व विकास र राजनीतिक प्रशिक्षण कक्षा", en: "Leadership development and political training classes" },
     { ne: "बेरोजगारी र वैदेशिक रोजगारीका सवालमा युवासँग नियमित संवाद", en: "Regular dialogue with youth on jobs and foreign employment" } ] },
   { t: { ne: "शिक्षामा सुधार", en: "Reform in education" }, d: { ne: "विश्वविद्यालयमा दलीय हस्तक्षेपको अन्त्य र विद्यार्थीमैत्री शिक्षा।", en: "End party interference in universities and put students first." }, p: [
@@ -49,11 +49,11 @@ export const manifesto: { t: L; d: L; p: L[] }[] = [
     { ne: "क्याम्पसको डिजिटलाइजेसन र विकेन्द्रीकरण", en: "Digital, decentralized campus services" },
     { ne: "योग्यताका आधारमा नियुक्ति, राजनीतिक भागबण्डा होइन", en: "Appointments on merit, not political sharing" } ] },
   { t: { ne: "पारदर्शी र जवाफदेही पार्टी", en: "A transparent, accountable party" }, d: { ne: "निर्णय खुला, हिसाब सार्वजनिक र नेतृत्व कार्यकर्ताप्रति जवाफदेही।", en: "Open decisions, public accounts and leaders who answer to party workers." }, p: [
-    { ne: "प्रदेश कमिटीको आय–व्यय नियमित सार्वजनिक", en: "Regular public reporting of provincial committee income and spending" },
+    { ne: "प्रदेश समितिको आय–व्यय नियमित सार्वजनिक", en: "Regular public reporting of provincial samiti income and spending" },
     { ne: "बैठकका निर्णय लिखित र सबैको पहुँचमा", en: "Meeting decisions written down and open to all members" },
     { ne: "वर्षमा एकपटक कार्यकर्तासामु कामको लेखाजोखा", en: "A yearly account of work presented to party workers" } ] },
   { t: { ne: "सबैको समावेशी सहभागिता", en: "Inclusion for everyone" }, d: { ne: "महिला, दलित, आदिवासी जनजाति, मधेसी र पिछडिएका क्षेत्रको आवाज संगठनको केन्द्रमा।", en: "Women, Dalits, Indigenous peoples, Madhesis and remote areas at the heart of the organization." }, p: [
-    { ne: "कमिटीमा समावेशी प्रतिनिधित्वको पूर्ण पालना", en: "Full compliance with inclusive representation on committees" },
+    { ne: "समितिमा समावेशी प्रतिनिधित्वको पूर्ण पालना", en: "Full compliance with inclusive representation on samiti" },
     { ne: "दुर्गम र हिमाली जिल्लासम्म संगठन विस्तार", en: "Grow the organization in remote and hill districts" },
     { ne: "महिला नेतृत्व विकासका विशेष कार्यक्रम", en: "Dedicated programmes to build women's leadership" } ] },
   { t: { ne: "सेवा र विपद् उद्धार", en: "Service and disaster relief" }, d: { ne: "बाढी, पहिरो र भूकम्पमा पहिले पुग्ने कांग्रेस स्वयंसेवक सञ्जाल।", en: "A Congress volunteer network that is first to arrive in floods, landslides and earthquakes." }, p: [

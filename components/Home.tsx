@@ -54,7 +54,7 @@ export default function Home() {
           <img src="/images/profile.jpg" alt="Sanjib Dhakal" className="portrait" />
           <div>
             <h2>{ne ? "कुशल संगठनकर्ता, जनताको नेता" : "An organizer who stays close to people"}</h2>
-            <p>{ne ? "इलामको प्याङ्गमा विद्यार्थी राजनीतिबाट सुरु गरेका संजिव ढकाल नेपाल विद्यार्थी संघको इकाईदेखि केन्द्रीय सदस्यसम्म पुगेका छन्। नेपाली कांग्रेसको १४औं महाधिवेशनमा इलाम क्षेत्र १ बाट सर्वाधिक मतसहित केन्द्रीय प्रतिनिधि निर्वाचित भए, १५औंमा पनि प्रतिनिधि बनेका छन्। समाजशास्त्र र राजनीतिशास्त्रमा स्नातकोत्तर गरेका उनी हाल नेपाल ल क्याम्पसमा एलएलबी अध्ययनरत छन्।" : "Sanjib Dhakal began in student politics at Pyang, Ilam, and rose in the Nepal Student Union from unit level to the central committee. He was elected central delegate from Ilam 1 with the highest votes at the 14th convention, and again at the 15th. He holds a master's in sociology and political science and is now studying LLB at Nepal Law Campus."}</p>
+            <p>{ne ? "इलामको प्याङ्गमा विद्यार्थी राजनीतिबाट सुरु गरेका संजिव ढकाल नेपाल विद्यार्थी संघको इकाईदेखि केन्द्रीय सदस्यसम्म पुगेका छन्। नेपाली कांग्रेसको १४औं महाधिवेशनमा इलाम क्षेत्र १ बाट सर्वाधिक मतसहित केन्द्रीय प्रतिनिधि निर्वाचित भए, १५औंमा पनि प्रतिनिधि बनेका छन्। समाजशास्त्र र राजनीतिशास्त्रमा स्नातकोत्तर गरेका उनी हाल नेपाल ल क्याम्पसमा एलएलबी अध्ययनरत छन्।" : "Sanjib Dhakal began in student politics at Pyang, Ilam, and rose in the Nepal Student Union from unit level to the central samiti. He was elected central delegate from Ilam 1 with the highest votes at the 14th convention, and again at the 15th. He holds a master's in sociology and political science and is now studying LLB at Nepal Law Campus."}</p>
           </div>
         </section>
 
